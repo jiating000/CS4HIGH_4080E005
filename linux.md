@@ -7,28 +7,28 @@ top   是一個互動式（interactive）的工具，可以顯示即時的系統
 ps    指令列出行程的一些基本資訊，按照每個行程所使用的記憶體排序後，列出排名最前面的幾個行程，也就是列出系統上最耗費記憶體的程式
 ping  命令是常用的網路命令，它通常用來測試與目標主機的連通性
 mkdir 創建新資料夾
-rmdir
+rmdir 刪除『空』的目錄
 cp    複製檔案
 rm    刪除檔案
 mv    動檔案或是重新命名檔案
-nl
+nl    添加行號列印
 more  將檔案一頁頁印在終端機上
-less
-head
+less  一頁一頁翻動
+head  取出前面幾行
 tail  顯示檔案最後幾行內容
-od
+od    非純文字檔
 touch 用來更新已存在文件的 timestamp 時間戳記或是新增空白檔案
-umask
-chattr
-lsattr
-SUID
-SGID
-SBIT
-file
-which
-whereis
-locate 
-updatedb
+umask 檔案預設權限
+chattr 設定檔案隱藏屬性 
+lsattr 顯示檔案隱藏屬性
+SUID   是為了讓一般使用者在執行某些程式的時候， 能夠暫時的具有該程式擁有者的權限
+SGID   SGID 對二進位程式有用，程式執行者對於該程式來說，需具備 x 的權限，執行者在執行的過程中將會獲得該程式群組的支援
+SBIT   當使用者對於此目錄具有 w, x 權限，亦即具有寫入的權限時，當使用者在該目錄下建立檔案或目錄時，僅有自己與 root 才有權力刪除該檔案 
+file   觀察檔案類型
+which  尋找執行檔
+whereis 由一些特定的目錄中尋找檔案檔名
+locate  依據 /var/lib/mlocate 內的資料庫記載，找出使用者輸入的關鍵字檔名
+updatedb 根據 /etc/updatedb.conf 的設定去搜尋系統硬碟內的檔名，並更新 /var/lib/mlocate 內的資料庫檔案
 find   檢查檔案類型
 
 ```
