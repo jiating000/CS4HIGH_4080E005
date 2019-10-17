@@ -32,7 +32,7 @@ input("Where do you live? ")
 print("I live in Boston. ")
 ```
 ```
-答:Where do you live?
+答:Changhua
 ```
 # 10-4
 user_place = input("Where do you live? ")
@@ -40,24 +40,25 @@ text = user_place.capitalize()+ "!"
 print(text) 
 print("I hear it's nice there!") 
 ```
-
-
+```
+答:Changhua
 ```
 # 10-5
-num = int(input ("Enter a number to find the square of: "))
-user_input = input("Enter a integer to find the square of: ")
+num = int(input ("4 "))
+user_input = input("16 ")
 num = int(user_input) 
 print(num*num)
 ```
-
-
+```
+答:4
 ```
 # 10-6
-num1 = float(input("Enter a number: "))
-num2 = float(input("Enter another number: "))
+num1 = float(input("2: "))
+num2 = float(input("1: "))
 print(num1, "*", num2, "=", num1*num2)
 ```
-
+```
+答:2
 
 # CH.11[略過!先不必做]
 ```
@@ -170,16 +171,17 @@ print(newname2_first, newname2_last)
 # CH.13
 ```
 # 13-1
-num = int(input("Enter a number: "))
+num = int(input("4"))
 if num > 0:
     print("num is positive")
 print("finished comparing num to 0") 
 ```
-
+```
+答:4
 
 ```
 # 13-2
-num_a = int(input("Pick a number: "))   
+num_a = int(input("1"))   
 if num_a > 0:
     print("Your number is positive")   
 if num_a < 0:
@@ -188,31 +190,34 @@ if num_a == 0:
     print("Your number is zero")
 print("Finished!")
 ```
-
+```
+答:1
 
 ```
 # 13-3非巢狀條件式
-num_a = int(input("Number? "))
-num_b = int(input("Number? "))
+num_a = int(input("1 "))
+num_b = int(input("-1 "))
 if num_a < 0:
-   print("num_a is negative") 
+   print("-1") 
 if num_b < 0:
-    print("num_b is negative")
+    print("-1")
 print("Finished")
 ```
-
+```
+答:1
 
 ```
 # 13-3巢狀條件式
-num_a = int(input("Number? "))
-num_b = int(input("Number? "))
+num_a = int(input("3"))
+num_b = int(input("3"))
 if num_a < 0:      
-    print("num_a is negative")
+    print("3")
     if num_b < 0:
-        print("num_b is negative")
+        print("3")
 print("Finished")
 ```
-
+```
+答:3
 
 ```
 # 13-4
@@ -235,7 +240,8 @@ if hungry == "no":
 if bars > 10:
     print("Cashier says: someone's hungry!")
 ```
-
+```
+答:20
 
 ```
 # 13-5
@@ -244,8 +250,10 @@ num_b = int(input("pick a number:"))
 if num_a < 0 and num_b < 0: 
     print("both negative")
 ```
+```
+答:10
 
-
+```
 # CH.14
 ```
 # 14-1
