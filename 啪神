@@ -223,7 +223,7 @@ if num_a < 0:
         print("num_b is negative")
 print("Finished")
 ```
-Number? 4
+答:Number? 4
 Number? 2
 Finished
 
@@ -453,7 +453,10 @@ while n > 0:
     print(s)
     n = n-1
 ```
-
+答:請輸入顯示內容 : 1
+ 請輸入顯示次數 : 2
+1
+1
 
 ```
 # 16-2
@@ -466,8 +469,12 @@ while guess != lucky_num:
     tries += 1
 print("You got it!")
 ```
-
-
+答:Guess a Number(0-99): 1
+You tried to guess 1 times
+Guess again: 76
+You tried to guess 2 times
+Guess again: 77
+You got it!
 ```
 # 16-3
 secret = "code"
@@ -484,7 +491,8 @@ while guess != secret:
 if tries <= max_tries and guess == secret:
     print("You got it!")
 ```
-
+答:Guess a word: code
+You got it!
 
 ```
 # 16-4
@@ -497,7 +505,7 @@ while(i < 10):
     i += 1
 print("End")
 ```
-
+答:1 2 3 4 6 7 8 9 End
 
 ```
 # 16-5
@@ -512,7 +520,9 @@ else:
     print(" 恭喜你過關了 ")
 print(" 再見!")
 ```
-
+答: 請輸入通關密語:喵喵
+ 恭喜你過關了 
+ 再見!
 
 ```
 # 17-1不使用迴圈
@@ -527,6 +537,16 @@ print("Hello Python")
 print("Hello Python")
 print("Hello Python")
 ```
+答:Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
 
 
 # CH.17
@@ -535,7 +555,16 @@ print("Hello Python")
 for i in range(10):
     print("Hello Python")
 ```
-
+答:Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
+Hello Python
 
 ```
 # 17-3
@@ -545,7 +574,8 @@ print()
 for i in range(0, 9, 2): 
     print(i, end=" ") 
 ```
-
+答:10 9 8 7 6 5 4 3 2 
+0 2 4 6 8 
 
 ```
 # 17-4
@@ -554,7 +584,15 @@ for i in range(1, 10):
         print(j, "x", i, "=", j*i, end=' ')
     print()
 ```
-
+答:1 x 1 = 1 2 x 1 = 2 3 x 1 = 3 4 x 1 = 4 5 x 1 = 5 6 x 1 = 6 7 x 1 = 7 8 x 1 = 8 9 x 1 = 9 
+1 x 2 = 2 2 x 2 = 4 3 x 2 = 6 4 x 2 = 8 5 x 2 = 10 6 x 2 = 12 7 x 2 = 14 8 x 2 = 16 9 x 2 = 18 
+1 x 3 = 3 2 x 3 = 6 3 x 3 = 9 4 x 3 = 12 5 x 3 = 15 6 x 3 = 18 7 x 3 = 21 8 x 3 = 24 9 x 3 = 27 
+1 x 4 = 4 2 x 4 = 8 3 x 4 = 12 4 x 4 = 16 5 x 4 = 20 6 x 4 = 24 7 x 4 = 28 8 x 4 = 32 9 x 4 = 36 
+1 x 5 = 5 2 x 5 = 10 3 x 5 = 15 4 x 5 = 20 5 x 5 = 25 6 x 5 = 30 7 x 5 = 35 8 x 5 = 40 9 x 5 = 45 
+1 x 6 = 6 2 x 6 = 12 3 x 6 = 18 4 x 6 = 24 5 x 6 = 30 6 x 6 = 36 7 x 6 = 42 8 x 6 = 48 9 x 6 = 54 
+1 x 7 = 7 2 x 7 = 14 3 x 7 = 21 4 x 7 = 28 5 x 7 = 35 6 x 7 = 42 7 x 7 = 49 8 x 7 = 56 9 x 7 = 63 
+1 x 8 = 8 2 x 8 = 16 3 x 8 = 24 4 x 8 = 32 5 x 8 = 40 6 x 8 = 48 7 x 8 = 56 8 x 8 = 64 9 x 8 = 72 
+1 x 9 = 9 2 x 9 = 18 3 x 9 = 27 4 x 9 = 36 5 x 9 = 45 6 x 9 = 54 7 x 9 = 63 8 x 9 = 72 9 x 9 = 81 
 
 ```
 # 17-5
@@ -566,7 +604,7 @@ for i in range(1, 20):
         break
 print("END")
 ```
-
+答:1 2 3 4 6 7 8 9 10 END
 
 ```
 # 17-6
@@ -586,7 +624,20 @@ for i in range(2, num+1):
 for ch in "Python is fun!":
     print("the character is", ch) 
 ```
-
+答:the character is P
+the character is y
+the character is t
+the character is h
+the character is o
+the character is n
+the character is  
+the character is i
+the character is s
+the character is  
+the character is f
+the character is u
+the character is n
+the character is !
 
 ```
 # 18-2
@@ -604,8 +655,21 @@ print(" 恭喜以下得獎人:")
 for name in winners:
     print(name)
 ```
-
-
+答:
+the character is P
+the character is y
+the character is t
+the character is h
+the character is o
+the character is n
+the character is  
+the character is i
+the character is s
+the character is  
+the character is f
+the character is u
+the character is n
+the character is !
 ```
 # 18-4
 prizes =(" 頭獎 ", " 二獎 ", " 三獎 ")
@@ -614,7 +678,10 @@ print(" 恭喜以下得獎人:")
 for i in range(3):
     print(prizes[i]+ ":" + winners[i]) 
 ```
-
+答:恭喜以下得獎人:
+ 頭獎 :Peter
+ 二獎 :Mark
+ 三獎 :Joy
 
 ```
 # 18-5
@@ -623,7 +690,10 @@ print(" 恭喜以下得獎人:")
 for e in winners: 
     print(e[0]+ ":" + e[1])
 ```
-
+答: 恭喜以下得獎人:
+ 頭獎 :Peter
+ 二獎 :Mark
+ 三獎 :Joy
 
 ```
 # 18-6
@@ -632,14 +702,19 @@ print(" 恭喜以下獎人:")
 for prize, winner in winners:
     print(prize+ ":" + winner) 
 ```
-
+答:恭喜以下獎人:
+ 頭獎 :Peter
+ 二獎 :Mark
+ 三獎 :Joy
 
 ```
 # 18-7for迴圈
 for x in range(3):
     print("var x is", x)
 ```
-
+答:var x is 0
+var x is 1
+var x is 2
 
 ```
 # 18-7while迴圈
@@ -648,7 +723,9 @@ while x < 3:
     print("var x is", x)
     x += 1
 ```
-
+答:var x is 0
+var x is 1
+var x is 2
 
 # CH.19
 ```
@@ -723,7 +800,7 @@ for letter in word:
         found_words = found_words +(word, )
 print(found_words)
 ```
-
+答:()
 
 # CH.20
 ```
@@ -735,7 +812,10 @@ print(a-b)
 print(a*b)
 print(a/b)
 ```
-
+答:3
+-1
+2
+0.5
 
 ```
 # 20-2
@@ -758,7 +838,18 @@ print(a-b)
 print(a*b)
 print(a/b)
 ```
-
+答:3
+-1
+2
+0.5
+7
+-1
+12
+0.75
+11
+-1
+30
+0.8333333333333334
 
 ```
 # 21-1
@@ -787,7 +878,8 @@ def sayHi(name, title):
     print(name + title +' 你好!')
 sayHi(' 王小明 ', ' 同學 ')
 ```
-
+答:Hello!
+ 王小明  同學  你好!
 
 ```
 # 21-3
@@ -821,7 +913,9 @@ print("One name is", length1, "letters long.")
 print("Another name is", length2, "letters long.")
 print("The final name is", length3, "letters long.")
 ```
-
+答:One name is 8 letters long.
+Another name is 10 letters long.
+The final name is 11 letters long.
 
 ```
 # 21-6
@@ -844,7 +938,10 @@ show_kid("Ellie")
 print(say_name("Frank"))
 print(show_kid("Gus"))
 ```
-
+答:Dora
+Frank
+None
+Gus
 
 ```
 # 21-8
@@ -861,6 +958,13 @@ def take_attendance(classroom, who_is_here):
     return "finished taking attendance"
 help(take_attendance)
 ```
+答:Help on function take_attendance in module __main__:
+
+take_attendance(classroom, who_is_here)
+    classroom, tuple of strings
+    who_is_here, tuple of strings
+    Prints the names of all kids in class who are also in who_is_here
+    Returns a string, "finished taking attendance"
 
 
 # CH.22
@@ -873,7 +977,8 @@ peter = 30
 fairy_tale()
 print(peter)
 ```
-
+答:5
+30
 
 ```
 # 22-2
@@ -883,7 +988,7 @@ def e():
 v= 1
 e()
 ```
-
+答:5
 
 ```
 # 22-3
@@ -892,7 +997,7 @@ def f():
 v= 1
 f()
 ```
-
+答:1
 
 ```
 # 22-4
@@ -902,7 +1007,7 @@ v= 1
 x= 2
 g()
 ```
-
+答:3
 
 ```
 # 22-5
@@ -925,7 +1030,8 @@ num = 4
 print(odd_or_even(num))   
 odd_or_even(5)
 ```
-
+答:even
+'odd'
 
 ```
 # 22-7
@@ -954,7 +1060,12 @@ def breakfast():
     return my_ec
 print(sandwich(blt))
 ```
-
+答:--------
+ bacon
+ lettuce
+ tomato
+--------
+None
 
 ```
 # 22-9
@@ -970,7 +1081,15 @@ def grumpy():
     return no_n_times
 grumpy()(4)(2)
 ```
-
+答:I am a grumpy cat:
+No 4 times...
+...and no 2 more times
+no
+no
+no
+no
+no
+no
 
 # CH.23[略過!先不必做]
 ```
@@ -1136,7 +1255,11 @@ print(years.count(2017))
 print(years.index(1986))
 print(years.index(1988))
 ```
-
+答:4
+2
+0
+1
+2
 
 ```
 # 25-2
@@ -1151,7 +1274,9 @@ print(first3letters)
 last3letters.extend(first3letters)
 print(last3letters)
 ```
-
+答:['a', 'b', 'c']
+['a', 'b', 'c', 'x', 'y', 'z']
+['x', 'y', 'z', 'a', 'b', 'c', 'x', 'y', 'z']
 
 ```
 # 25-3
@@ -1161,7 +1286,10 @@ print(polite)
 print(polite.pop(1)) 
 print(polite)
 ```
-
+答:you
+['please', 'and', 'thank']
+and
+['please', 'thank']
 
 ```
 # 25-4
@@ -1173,7 +1301,9 @@ print(colors)
 colors[2] = "purple"
 print(colors)
 ```
-
+答:['orange', 'blue', 'yellow']
+['orange', 'green', 'yellow']
+['orange', 'green', 'purple']
 
 # CH.26
 ```
@@ -1189,7 +1319,9 @@ print(heights)
 heights.reverse()
 print(heights)
 ```
-
+答:[1, 1.5, 1.4, 2, 1.5, 1.3, 1.4]
+[1, 1.3, 1.4, 1.4, 1.5, 1.5, 2]
+[2, 1.5, 1.5, 1.4, 1.4, 1.3, 1]
 
 ```
 # 26-2
@@ -1226,7 +1358,7 @@ stack.pop()
 stack.pop()
 stack.pop()
 ```
-
+答:c
 
 ```
 # 26-5
@@ -1240,7 +1372,7 @@ line.pop(0)
 line.pop(0)
 line.pop(0)
 ````
-
+答:Dave
 
 # CH.27
 ```
@@ -1254,7 +1386,9 @@ legs["cat"] = 3
 print(len(legs))
 print(legs)
 ```
-
+答:3
+3
+{'human': 2, 'cat': 3, 'snake': 0}
 
 ```
 # 27-2
@@ -1262,7 +1396,7 @@ household = {"person":4, "cat":2, "dog":1, "fish":2}
 removed = household.pop("fish")
 print(removed)
 ```
-
+答:2
 
 ```
 # 27-3
@@ -1280,7 +1414,15 @@ for student in grades.keys():
     grades[student].append(sum(scores)/2)
 print(grades)
 ```
-
+答:Chris
+Angela
+Bruce
+Stacey
+85.0
+95.0
+60.0
+70.0
+{'Chris': [100, 70, 85.0], 'Angela': [90, 100, 95.0], 'Bruce': [80, 40, 60.0], 'Stacey': [70, 70, 70.0]}
 
 ```
 # 27-4
