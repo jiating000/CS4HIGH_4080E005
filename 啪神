@@ -1438,7 +1438,7 @@ for w in words:
         counts[w] += 1
 print(counts) 
 ```
-
+答:{'happy': 4, 'birthday': 4, 'to': 3, 'you': 3, 'dear': 1}
 
 ```
 # 27-5
@@ -1458,7 +1458,9 @@ print(areas["sq"](n))
 print(areas["ci"](n))
 print(areas["eqtri"](n))
 ```
-
+答:4
+12.56
+1.7320508075688772
 
 # CH.28
 ```
@@ -1493,7 +1495,9 @@ for s in songs.keys():
     if songs[s] == 1:
         songs.pop(s)
 ```
-
+答:{'box': ['fight']}
+{'box': ['fight', 'container']}
+{'box': ['fight', 'container'], 'ox': ['animal']}
 
 ```
 # 28-3
@@ -1502,7 +1506,7 @@ for s in songs:
     if s == 1: songs.pop(s)
 print(songs)
 ```
-
+答:[1, 5, 4]
 
 ```
 # 28-4
@@ -1514,7 +1518,7 @@ for s in songs_copy:
         songs.append(s) 
 print(songs)
 ```
-
+答:[5, 4]
 
 # CH.29[略過!先不必做]
 ```
@@ -1658,42 +1662,16 @@ pancakes.remove_one()
 print(pancakes.size())
 pancakes.prettyprint()
 ```
-
+答:5
+4
+|_ chocolate _|
+|_ chocolate _|
+|_ chocolate _|
+|_ blueberry _|
 
 ```
 # 32-3
-class Stack:
-    def __init__( self):
-        self.stack = []
-    def get_stack_elements(self):
-        return self.stack.copy()   
-    def add_one(self, item):
-        self.stack.append(item)
-    def add_many(self, item, n):
-        for i in range(n):
-            self.stack.append(item)
-    def remove_one(self):
-        self.stack.pop()
-    def remove_many(self , n):
-        for i in range(n):
-            self.stack.pop()
-    def size(self):
-        return len(self.stack)
-    def prettyprint(self):
-        for thing in self.stack[::-1]:
-            print('|_', thing, '_|')
-            
 
-circles = Stack()
-one_circle = Circle()
-one_circle.change_radius(2)
-circles.add_one(one_circle)
-for i in range(5):
-    one_circle = Circle()
-    one_circle.change_radius(1)
-    circles.add_one(one_circle)
-print(circles.size())
-circles.prettyprint()
 ```
 
 
