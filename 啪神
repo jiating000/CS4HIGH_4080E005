@@ -7,7 +7,6 @@ print(3*2*(17-2.1))
 print("abc"+"def")
 word = "art"
 print(word.replace("r", "n"))
-
 ```
 ```
 答:hello!
@@ -32,7 +31,8 @@ print(add)
 input("Where do you live? ")
 print("I live in Boston. ")
 ```
-
+```
+答:Where do you live?
 ```
 # 10-4
 user_place = input("Where do you live? ")
